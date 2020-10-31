@@ -135,3 +135,106 @@ body {
     background-color: #FB4712;
     text-align: center;
 }
+
+/** SLIDESHOW */
+.__main_slide_show {
+    width: 100%;
+    padding: 80px 0;
+    background: url('../img/slide-banner.jpg') no-repeat center #000000;
+    background-size: cover;
+    position: relative;
+}
+
+.__main_slide_show .__main_slide_show_content {
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+}
+
+.__main_slide_show .__main_slide_show_content.active{
+    display: flex;
+}
+
+.__main_slide_show_content .__slide_show_content_title {
+    flex-basis: 60%;
+    color: #ffffff;
+    padding: 0 60px;
+}
+
+.__slide_show_content_title h2 {
+    font-size: 3.75em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.__slide_show_content_title h3 {
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.__slide_show_content_title .__slide_show_content_title_footer {
+    margin-top: 40px;
+}
+
+.__slide_show_content_title_footer p {
+    font-size: var(--font-medium);
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.__slide_show_content_title_footer .btn {
+    margin-right: 10px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.__slide_show_content_title_footer .btn_first{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.__slide_show_content_title_footer .btn_first:hover{
+    border-color: var(--yellow);
+    color: var(--yellow);
+}
+
+.__slide_show_content_title_footer .btn_second{
+    border: 2px solid var(--yellow);
+    color: #333;
+}
+
+.__slide_show_content_title_footer .btn_second:hover{
+    background-color: transparent;
+    color: var(--yellow);
+}
+
+.__main_slide_show_content .__slide_show_content_cover{
+    flex-basis: 40%;
+    padding: 0 60px;
+}
+
+.__main_slide_show .__main_slide_show_control{
+    position: absolute;
+    width: 100%;
+    padding: 0 40px;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.__main_slide_show_control .btn{
+    position: absolute;
+}
+.__main_slide_show_control .btn.previous{
+    left: 20px;
+}
+
+.__main_slide_show_control .btn.next{
+    right: 20px;
+}
