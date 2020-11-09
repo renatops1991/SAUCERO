@@ -61,7 +61,9 @@
 
                     <footer class="__slide_show_content_title_footer">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, repellat!</p>
-                        <a href="" class="btn radius transition btn_first">Book Now</a> <a href="" class="btn btn_second btn-yellow radius transition">View Menu</a>
+                        <a href="" class="btn radius transition btn_first">Book Now</a> <a href=""
+                                                                                           class="btn btn_second btn-yellow radius transition">View
+                            Menu</a>
                     </footer>
                 </article>
                 <div class="__slide_show_content_cover">
@@ -76,7 +78,9 @@
 
                     <footer class="__slide_show_content_title_footer">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, repellat!</p>
-                        <a href="" class="btn radius transition btn_first">Book Now</a> <a href="" class="btn btn_second btn-yellow radius transition">View Menu</a>
+                        <a href="" class="btn radius transition btn_first">Book Now</a> <a href=""
+                                                                                           class="btn btn_second btn-yellow radius transition">View
+                            Menu</a>
                     </footer>
                 </article>
                 <div class="__slide_show_content_cover">
@@ -91,68 +95,72 @@
         </div>
     </section>
 
-    <section>
-        <div>
-            <article>
-                <img src="" alt="Quality Foods">
-                <h2>Quality Foods</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nisi?</p>
-            </article>
-            <article>
-                <img src="" alt="Quality Foods">
-                <h2>Quality Foods</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nisi?</p>
-            </article>
-            <article>
-                <img src="" alt="Quality Foods">
-                <h2>Quality Foods</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nisi?</p>
-            </article>
+    <section class="__introduction">
+        <div class="container ">
+            <div class="row __introduction_content">
+                <article class="__introduction_content_article">
+                    <img src="assets/img/icon_1.png" alt="Quality Foods">
+                    <h2>Quality Foods</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nisi?</p>
+                </article>
+                <article class="__introduction_content_article">
+                    <img src="assets/img/icon_2.png" alt="Quality Foods">
+                    <h2>Quality Foods</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nisi?</p>
+                </article>
+                <article class="__introduction_content_article">
+                    <img src="assets/img/icon_3.png" alt="Quality Foods">
+                    <h2>Quality Foods</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nisi?</p>
+                </article>
+            </div>
         </div>
     </section>
 
-    <section>
-        <header>
-            <h1>Hot Sales</h1>
-        </header>
-        <div>
-            <article>
-                <img src="" alt="">
-                <h2>Diablo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+    <section class="__hot_sales">
+        <div class="container">
+            <header class="__hot_sales_headline">
+                <h1>Hot Sales</h1>
+            </header>
+            <div class="row __hot_sales_content">
+                <article class="__hot_sales_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Diablo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Carbonara</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__hot_sales_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Carbonara</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Capricciosa</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__hot_sales_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Capricciosa</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Prosciutto</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__hot_sales_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Prosciutto</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
+            </div>
         </div>
     </section>
 
-    <section>
-        <header>
-            <h1>Discover our menu</h1>
-        </header>
-        <div>
-            <ul>
-                <li><a href="">Burgers</a></li>
+    <section class="__product_menu">
+        <div class="container">
+            <header class="__product_menu_headline">
+                <h1>Discover our menu</h1>
+            </header>
+            <ul class="row __product_menu_list">
+                <li><a href="" class="active">Burgers</a></li>
                 <li><a href="">Desserts</a></li>
                 <li><a href="">Drinks</a></li>
                 <li><a href="">Pasta</a></li>
@@ -160,118 +168,130 @@
                 <li><a href="">Salads</a></li>
             </ul>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+            <div class="row __product_menu_content active">
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
 
-            <article>
-                <img src="" alt="">
-                <h2>Lorem ipsum dolor.</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
-                <p><span>R$ 20,00</span></p>
-            </article>
+                <article class="__product_menu_content_article">
+                    <img src="assets/img/pizza-product.png" alt="">
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
+                    <p><span>R$ 20,00</span></p>
+                </article>
+            </div>
         </div>
     </section>
 
-    <section>
-        <header>
-            <h1>Contact us</h1>
-        </header>
+    <section class="__contact">
+        <div class="container">
+            <header class="__contact_headline">
+                <h1>Contact us</h1>
+            </header>
 
-        <div>
-            <form action="" method="post" enctype="multipart/form-data">
-                <div>
-                    <input type="text" name="name" placeholder="Seu nome">
-                </div>
+            <div class="__contact_form_content">
+                <form action="" method="post" enctype="multipart/form-data" class="__main_form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Seu nome" class="form-control radius">
+                    </div>
 
-                <div>
-                    <input type="email" name="email" placeholder="Seu e-mail">
-                </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Seu e-mail" class="form-control radius">
+                    </div>
 
-                <div>
-                    <input type="text" name="phone" placeholder="Seu telefone">
-                </div>
+                    <div class="form-group">
+                        <input type="text" name="phone" placeholder="Seu telefone" class="form-control radius">
+                    </div>
 
-                <div>
-                    <textarea name="message" cols="30" rows="10"></textarea>
-                </div>
+                    <div class="form-group">
+                        <textarea name="message" cols="30" rows="10" class="form-control radius"></textarea>
+                    </div>
 
-                <button type="submit">Enviar mensagem</button>
-            </form>
+                    <button type="submit" class="btn btn_submit radius transition">Enviar mensagem</button>
+                </form>
+            </div>
         </div>
     </section>
 </main>
 
-<div>
-    <a href="" title="Subir para o topo">Subir</a>
-</div>
+<footer class="__main_footer">
+    <div class="container">
+        <div class="row __main_footer_content">
+            <div class="__company">
+                <img src="assets/img/logo.jpeg" alt="Saucero">
+                <p>(11)9 4672-0947 - <span>09:00 - 17:00</span></p>
+            </div>
 
-<footer>
-    <div>
-        <img src="" alt="Saucero">
-        <p>(11)9 4672-0947 - 09:00 - 17:00</p>
+            <div class="__menunav">
+                <ul class="row __menunav_list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
 
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+            <div class="__menunav">
+                <ul class="row __menunav_list __menunav_list_social">
+                    <li><a href="" class="icon-twitter"></a></li>
+                    <li><a href="" class="icon-facebook"></a></li>
+                    <li><a href="" class="icon-instagram"></a></li>
+                </ul>
+            </div>
+        </div>
 
-        <ul>
-            <li><a href="">Twiter</a></li>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Instagram</a></li>
-        </ul>
-
-        <p>&copy; 2020 - Todos os direitos reservados</p>
+        <p class="__main_footer_copy">&copy; 2020 - Todos os direitos reservados</p>
     </div>
 </footer>
+
+<div class="__btn_up_content">
+    <a href="" title="Subir para o topo" class="btn_up radius transition icon-chevron-up"></a>
+</div>
 </body>
 </html>
