@@ -26,7 +26,7 @@
             </div>
 
             <div class="__main_header_content_logo_menu">
-                <img src="assets/img/logo.jpeg" alt="Saucero" width="150"/>
+                <img src="assets/img/logo.png" alt="Saucero" width="150"/>
                 <nav class="nav_list">
                     <ul>
                         <li><a href="">Home</a></li>
@@ -61,9 +61,8 @@
 
                     <footer class="__slide_show_content_title_footer">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, repellat!</p>
-                        <a href="" class="btn radius transition btn_first">Book Now</a> <a href=""
-                                                                                           class="btn btn_second btn-yellow radius transition">View
-                            Menu</a>
+                        <a href="" class="btn radius transition btn_first">Book Now</a>
+                        <a href="" class="btn btn_second radius transition">View Menu</a>
                     </footer>
                 </article>
                 <div class="__slide_show_content_cover">
@@ -78,20 +77,14 @@
 
                     <footer class="__slide_show_content_title_footer">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, repellat!</p>
-                        <a href="" class="btn radius transition btn_first">Book Now</a> <a href=""
-                                                                                           class="btn btn_second btn-yellow radius transition">View
-                            Menu</a>
+                        <a href="" class="btn radius transition btn_first">Book Now</a>
+                        <a href="" class="btn btn_second btn-yellow radius transition">View Menu</a>
                     </footer>
                 </article>
                 <div class="__slide_show_content_cover">
                     <img src="assets/img/slider-pizza.png" alt="Imagem do banner">
                 </div>
             </div>
-        </div>
-
-        <div class="__main_slide_show_control">
-            <a href="" title="previous" class="btn btn-green previous">Anterior</a>
-            <a href="" title="next" class="btn btn-yellow next">Próximo</a>
         </div>
     </section>
 
@@ -117,44 +110,45 @@
         </div>
     </section>
 
-    <section class="__hot_sales">
+    <section class="__product_menu">
         <div class="container">
-            <header class="__hot_sales_headline">
+            <header class="__product_menu_headline">
                 <h1>Hot Sales</h1>
             </header>
-            <div class="row __hot_sales_content">
-                <article class="__hot_sales_content_article">
+
+            <div class="row __product_menu_content active">
+                <article class="__product_menu_content_article">
                     <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Diablo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__hot_sales_content_article">
+                <article class="__product_menu_content_article">
                     <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Carbonara</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__hot_sales_content_article">
+                <article class="__product_menu_content_article">
                     <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Capricciosa</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__hot_sales_content_article">
+                <article class="__product_menu_content_article">
                     <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Prosciutto</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nobis.</p>
+                    <h2>Lorem ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
             </div>
         </div>
     </section>
 
-    <section class="__product_menu">
+    <section class="__product_menu __product_menu_second">
         <div class="container">
             <header class="__product_menu_headline">
                 <h1>Discover our menu</h1>
@@ -228,6 +222,13 @@
         </div>
     </section>
 
+    <div class="__divider">
+        <div class="container">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aperiam architecto inventore
+                nostrum voluptatem!</h3>
+        </div>
+    </div>
+
     <section class="__contact">
         <div class="container">
             <header class="__contact_headline">
@@ -263,7 +264,7 @@
     <div class="container">
         <div class="row __main_footer_content">
             <div class="__company">
-                <img src="assets/img/logo.jpeg" alt="Saucero">
+                <img src="assets/img/logo-rodape.png" alt="Saucero">
                 <p>(11)9 4672-0947 - <span>09:00 - 17:00</span></p>
             </div>
 
