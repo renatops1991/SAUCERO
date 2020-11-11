@@ -29,7 +29,7 @@
                 <img src="assets/img/logo.png" alt="Saucero" width="150"/>
                 <nav class="nav_list">
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li class="active"><a href="">Home</a></li>
                         <li><a href="">Menu</a></li>
                         <li><a href="">Features</a></li>
                         <li><a href="">About</a></li>
@@ -117,30 +117,38 @@
             </header>
 
             <div class="row __product_menu_content active">
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
@@ -163,58 +171,74 @@
             </ul>
 
             <div class="row __product_menu_content active">
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
 
-                <article class="__product_menu_content_article">
-                    <img src="assets/img/pizza-product.png" alt="">
-                    <h2>Lorem ipsum dolor.</h2>
+                <article class="__product_menu_content_article radius">
+                    <a href="" class="__add_to_cart">
+                        <img src="assets/img/pizza-product.png" alt="">
+                    </a>
+                    <h2><a href="">Lorem ipsum dolor.</a></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, iste.</p>
                     <p><span>R$ 20,00</span></p>
                 </article>
