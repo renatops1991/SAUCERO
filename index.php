@@ -12,6 +12,32 @@
 </head>
 <body>
 
+<!-- Modal products -->
+<div class="row __modal">
+    <span class="icon-times icon-notext __btn_close transition"></span>
+    <div class="container">
+        <div class="row __modal_content">
+            <div class="__modal_content_cover">
+                <img src="assets/img/pizza-product.png" alt="">
+            </div>
+            <div class="__modal_content_desc radius">
+                <h2>Lorem ipsum dolor.</h2>
+                <p class="__price">R$ 99,00</p>
+                <div class="__modal_content_desc_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deserunt doloremque earum
+                        eum minus molestiae optio provident ullam voluptas voluptates. Aperiam maiores odio rerum sit
+                        sunt voluptates! Et, vitae voluptatum.</p>
+                    <div class="__modal_content_desc_text_control">
+                        <input type="text" class="form-control radius" maxlength="3" value="1">
+                        <a class="btn __btn_add_to_cart radius">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal products -->
+
 <header class="__main_header">
     <div class="container">
         <div class="row __main_header_content">

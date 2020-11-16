@@ -89,3 +89,6 @@
 .icon-chevron-down:before {
   content: "\71";
 }
+.icon-times:before {
+  content: "\72";
+}
