@@ -40,7 +40,7 @@
 
 <header class="__main_header">
     <div class="container">
-        <div class="row __main_header_content">
+        <div class="row __main_header_content __desktop">
             <div class="row __main_header_content_contact">
                 <div class="icons">
                     <span class="icon-mobile icon-notext"></span>
@@ -71,6 +71,45 @@
                 </div>
                 <div class="cart">
                     <a class="icon-bag"><span class="rounded">0</span></a>
+                </div>
+            </div>
+        </div>
+
+        <button class="__btn_open_menu radius transition">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="__main_header_mobile">
+            <div class="row __main_header_content_cart">
+                <div class="cart">
+                    <a class="icon-bag"><span class="rounded">0</span></a>
+                </div>
+
+                <div class="price_items">
+                    <span>R$ 0,00</span>
+                    <a href="">0 itens - no carrinho</a>
+                </div>
+            </div>
+
+            <nav class="nav_list">
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="row __main_header_content_contact">
+                <div class="icons">
+                    <span class="icon-mobile icon-notext"></span>
+                </div>
+                <div class="contacts">
+                    <span class="number">(11)9 4672-0947</span>
+                    <span class="hours">9:00 - 17:00</span>
                 </div>
             </div>
         </div>
