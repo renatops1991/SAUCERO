@@ -203,13 +203,12 @@ body {
 .__main_header .__main_header_mobile {
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 300px;
     max-width: 100%;
     height: 100%;
     z-index: 100;
     background-color: #ffffff;
-    display: none;
 }
 
 .__main_header_mobile .__main_header_content_cart {
