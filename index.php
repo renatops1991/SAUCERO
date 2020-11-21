@@ -231,8 +231,6 @@
                 <li><a href="">Desserts</a></li>
                 <li><a href="">Drinks</a></li>
                 <li><a href="">Pasta</a></li>
-                <li><a href="">Pizzas</a></li>
-                <li><a href="">Salads</a></li>
             </ul>
 
             <div class="row __product_menu_content active">
@@ -358,7 +356,7 @@
             </div>
 
             <div class="__menunav">
-                <ul class="row __menunav_list">
+                <ul class="row __menunav_list __menunav_list_first">
                     <li><a href="">Home</a></li>
                     <li><a href="">Menu</a></li>
                     <li><a href="">Features</a></li>

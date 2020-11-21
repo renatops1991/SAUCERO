@@ -851,6 +851,8 @@ body {
     right: 0;
     bottom: 0;
     padding: 20px;
+    z-index: 100;
+    display: none;
 }
 
 .__btn_up_content .btn_up {
@@ -920,11 +922,11 @@ body {
         -webkit-border-radius: 4px;
     }
 
-    .__slide_show_content_title h2{
+    .__slide_show_content_title h2 {
         font-size: var(--font-large);
     }
 
-    .__slide_show_content_title h3{
+    .__slide_show_content_title h3 {
         font-size: 1.5em;
     }
 
@@ -934,16 +936,102 @@ body {
         display: block;
     }
 
-    .__slide_show_content_title .__slide_show_content_title_footer{
+    .__slide_show_content_title .__slide_show_content_title_footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .__slide_show_content_title_footer .btn{
+    .__slide_show_content_title_footer .btn {
         flex-basis: 49%;
         margin: 0;
     }
 
+    /** HOT SALES */
+    .__product_menu_content .__product_menu_content_article {
+        flex-basis: calc(50% - 20px);
+    }
+
+}
+
+/** 768PX */
+@media (max-width: 48em) {
+    .__introduction_content .__introduction_content_article {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    .__product_menu {
+        padding: 40px 0;
+    }
+
+    .__product_menu_list a {
+        font-size: var(--font-normal);
+    }
+
+    .__product_menu_content .__product_menu_content_article {
+        margin-bottom: 20px;
+    }
+
+    .__divider {
+        padding: 40px 0;
+    }
+
+    .__divider h3 {
+        font-size: var(--font-medium);
+    }
+
+    .__introduction {
+        padding-bottom: 40px;
+    }
+
+    .__contact {
+        padding: 40px 0 80px;
+    }
+
+    .__main_footer {
+        padding: 40px 0;
+    }
+}
+
+/** 560PX */
+@media (max-width: 35em) {
+    .__slide_show_content_title h2 {
+        font-size: var(--font-big);
+    }
+
+    .__slide_show_content_title h3 {
+        font-size: var(--font-medium);
+    }
+
+    .__slide_show_content_title .__slide_show_content_title_footer {
+        margin-top: 20px;
+    }
+
+    .__slide_show_content_title_footer p {
+        font-size: var(--font-normal);
+    }
+
+    .__slide_show_content_title_footer .btn {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    .__slide_show_content_title_footer .btn:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .__product_menu_content .__product_menu_content_article {
+        flex-basis: 100%;
+    }
+
+    .__menunav_list_first li {
+        flex-basis: 100%;
+    }
+
+    .__menunav_list_first li a:hover{
+        display: block;
+        background-color: #1d2326;
+    }
 }
