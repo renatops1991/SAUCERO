@@ -42,6 +42,60 @@ $(function () {
         });
     });
 
+    /** slideshow */
+    if ($('.j_slide').length) {
+        function jSlide() {
+            $('.__j_slide_nav span').removeClass('active');
+
+            if ($('.__j_slide_item:visible').next('.__j_slide_item').length) {
+                $('.__j_slide_nav span:eq(' + ($('.__j_slide_item:visible').index() + 1) + ')').addClass('active');
+
+                $('.__j_slide_item:visible').fadeOut(function () {
+                    $(this).next('.__j_slide_item').fadeIn().css({'display': 'flex'});
+                });
+            } else {
+                $('.__j_slide_nav span:first-of-type').addClass('active');
+
+                $('.__j_slide_item:visible').fadeOut(function () {
+                    $('.__j_slide_item:first-of-type').fadeIn().css({'display': 'flex'});
+                });
+            }
+        }
+
+        var timeSlide = 3000;
+        var jSlideTimer = setInterval(function () {
+            jSlide();
+        }, timeSlide);
+
+        $('.j_slide').mouseenter(function () {
+            clearInterval(jSlideTimer);
+        }).mouseleave(function () {
+            jSlideTimer = setInterval(function () {
+                jSlide();
+            }, timeSlide);
+        });
+
+        /** navigator */
+        var slideNav = '';
+        $('.__j_slide_item').each(function () {
+            slideNav += '<span class="rounded transition"></span>';
+        });
+
+        $('.__j_slide_nav').html(slideNav).find('span').click(function () {
+            var navigation = $(this);
+            clearInterval(jSlideTimer);
+
+            $('.__j_slide_nav span').removeClass('active');
+            $('.__j_slide_item:visible').fadeOut(function () {
+                navigation.addClass('active');
+                $('.__j_slide_item:eq(' + navigation.index() + ')').fadeIn().css({'display': 'flex'});
+            })
+        });
+
+        $('.__j_slide_nav').find('span:first-of-type').addClass('active');
+    }
+
+
     /** SHOW MODAL INFO */
     $('.j_read_more').on('click', function (event) {
         event.preventDefault();
@@ -69,8 +123,8 @@ $(function () {
         $('.__modal').fadeOut();
     });
 
-    $(window).on('keyup', function(event){
-        if(event.key === 'Escape'){
+    $(window).on('keyup', function (event) {
+        if (event.key === 'Escape') {
             $('.__modal').fadeOut();
         }
     });
